@@ -1,0 +1,86 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-nav > li > a{
+    width: 8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#queryForm .form-group{
+    margin: 0.8em 0.8em;
+}
+
+#queryForm .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 12.2em;
+}
+
+#queryForm{
+    position: relative;
+}
+
+#result{
+    position: absolute;
+    top: 0.8em;
+    right: 2em;
+}
+
+#queryBtn{
+    position: absolute;
+    top: 4.8em;
+    right: 2em;
+}
+
+.modal-body{
+    margin-left:25% ;
+}
+
+#successMessage {
+    width: 20%;
+    position: fixed;
+    margin: 5% 40%;
+    top: 3%;
+    z-index: 9999;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+    position: absolute;
+}
+
+
+.nav-second-level li a {
+    padding: 7px 15px 7px 10px;
+    padding-left: 10px;
+    padding-left: 52px;
+    background: #eeeeee;
+    color: #6b8299;
+    border-bottom:1px dashed #a5c4db;
+}
+
+.nav-second-level li a:hover{
+    background: #dadada;
+}
+.nav-second-level>li>a.active{
+    background-color: #dadada !important;
+    color: #6b8299 !important;
+}
+.nav-second-level li:last-child a {
+    border: none;
+}
+
+.sidebar ul li a.active {
+    background-color: #0cc2aa;
+    color: #fff;
+}
+
+
+#queryForm{
+    display:flex;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+}

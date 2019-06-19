@@ -1,0 +1,96 @@
+.styleDiv{
+    width: 76%;
+    border-right: 1px solid #d5d5d5;
+}
+
+.styleDiv>.pull-left{
+    width: 10%;
+    margin-right: 1%;
+}
+
+.prdNo3{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.glyphicon-remove{
+    margin: 5px 0px;
+}
+
+.cnc1 , .cnc2{
+    border: 1px solid #ccc;
+}
+
+.codingDiv{
+    width: 20%;
+}
+
+.addPrdNo3 {
+    border-radius: 6px !important;
+    width: 5%;
+    margin-top: 3px;
+    margin-left: 1%;
+}
+
+.addGroup{
+    margin-left: 1%;
+}
+
+.codingInput{
+    width: 45%;position: relative;left:1rem;top: 50%;transform: translateY(-50%);
+}
+
+.GroupDiv{
+    width: 98%;
+    display:flex;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+}
+
+.initialize{
+    margin: 2rem
+}
+
+.initialize .panel-body .GroupDiv:nth-child(odd){
+    background: rgb(247, 247, 247);
+    border-radius: 6px;
+    margin:1rem 1rem ;
+}
+
+.initialize .panel-body .GroupDiv:nth-child(even){
+    background: #f7f7f7;
+    border-radius: 6px;
+    margin:1rem 1rem ;
+}
+
+.glyphicon-remove{
+    color: rgba(187, 187, 187, 0.41);
+    font-size: 1.2rem;
+}
+
+#modal_alert .modal-dialog{
+    width: 60%;
+    margin-top: 4%;
+    border-radius: 6px;
+}
+
+#modal_del .modal-dialog{
+    margin-top: 4%;
+}
+
+#modal_alert .modal-header ,#modal_alert .modal-footer{
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
+#modal_alert input{
+    font-weight: bold;
+}
+
+
+p {
+    margin: 5px 0 5px;
+}
