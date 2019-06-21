@@ -9,14 +9,14 @@
 <% if (request.getParameter("name").equals("jj")) {%>
 <ul class="nav" id="side-menu">
     <li class="<% if (request.getParameter("group").equals("1")) {%> mm-active <%} %>">
-        <a class="<% if (request.getParameter("group").equals("1")) {%> active <%} %>" href="#" aria-expanded="true"><i class="fa fa-bar-chart-o fa-fw"></i> 机加超单控制管理<span
+        <a class="<% if (request.getParameter("group").equals("1")) {%> active <%} %>" href="#" aria-expanded="true"><i class="fa fa-bar-chart-o fa-fw"></i> 物料管理<span
                 class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
-                <a class="<% if (request.getParameter("index").equals("1")) {%> active <%} %>" href="planQuery.jsp"><i class="fa fa-list-alt fa-fw"></i><span> 计划查询</span></a>
+                <a class="<% if (request.getParameter("index").equals("1")) {%> active <%} %>" href="planQuery.jsp"><i class="fa fa-list-alt fa-fw"></i><span> 物料交接</span></a>
             </li>
             <li>
-                <a class="<% if (request.getParameter("index").equals("2")) {%> active <%} %>" href="planAdjustment.jsp"><i class="fa fa-cogs fa-fw"></i><span> 计划调整</span></a>
+                <a class="<% if (request.getParameter("index").equals("2")) {%> active <%} %>" href="planAdjustment.jsp"><i class="fa fa-cogs fa-fw"></i><span> 物料流转</span></a>
             </li>
             <li>
                 <a class="<% if (request.getParameter("index").equals("5")) {%> active <%} %>" href="sk.jsp"><i class="fa fa-cc fa-fw"></i><span> 刷卡记录</span></a>
